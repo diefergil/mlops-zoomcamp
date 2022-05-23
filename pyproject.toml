@@ -5,10 +5,14 @@ description = ""
 authors = ["Diego <diegofg293@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
+numpy = "^1.22.4"
+pandas = "^1.4.2"
+scikit-learn = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+ipykernel = "^6.13.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
