@@ -163,3 +163,11 @@ cython_debug/
 
 # data
 *.parquet
+*.db
+
+# mlflow
+mlruns/*
+
+# models
+models/*
+.DS_STORE
