@@ -14,6 +14,8 @@ xgboost = "^1.6.1"
 rich = "^12.4.4"
 pyarrow = "^8.0.0"
 prefect = "2.0b5"
+Flask = "^2.1.2"
+gunicorn = "^20.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
